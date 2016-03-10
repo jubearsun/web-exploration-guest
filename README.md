@@ -57,6 +57,7 @@ Height is a little bit trickier.  Recall that height percentage is also percent 
 Recall that 1% page width = 1 vw.
 
 We have:
+
 1. A padding of 2% on the page-container (4% total width-wise)
 2. A grid-wrapper with 75% width of the parent (page-container)
 3. grid-items with 32% width of their parent (grid-wrapper)
