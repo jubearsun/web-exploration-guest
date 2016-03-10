@@ -69,7 +69,7 @@ In a grid with three grid-items per row, you don't want the last item in the row
 
 ```.grid-item:nth-child(3n)``` selects every third child of class ```grid-item```, and we can set the ```margin-right``` to 0 within it.
 
-When you do media queries, remember to undo the nth-child!
+When you do media queries, remember to undo the nth-child!  For example, when we only wanted 2 ```grid-item``` per row, we had to reset every third child to have a ```margin-right``` of 2% again before setting every second child to have a ```margin-right``` of 0.
 
 ## Media Queries
 
